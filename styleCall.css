@@ -1,0 +1,116 @@
+html {
+    background-color: #d9f4ff;
+}
+
+
+#logo-wrapper{
+   filter:opacity(90%);
+   width: 200px;
+   height: 100px;
+   margin-left: 40px;
+   margin-top: 20px;
+} 
+
+#logo{
+    margin: -60px 0px 0px -10px;
+}
+
+#SelfStream{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 470px;
+    margin-top: 100px;
+
+    border: 2px solid #1A72BA;
+    box-sizing: border-box;
+}
+.remoteStream{
+    display:inline-block;
+    text-align: left;
+    margin-top: 120px; 
+    margin-left: 20px;
+    justify-self: center;
+    border: 2px solid #1A72BA;
+    width: 400px;
+    height: 250px;
+}
+
+.leave{
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    background-color:#6aa2d6;
+    font-family: 'Caveat', cursive;
+}
+
+.controls{
+    justify-self: end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 30vw;
+    height: 100px;
+    width: 600px;
+    background-color: #ffffff;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.13);
+}
+
+.icon {
+    height: 40px;
+    width: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+/* #participantsList{
+    margin-top: 10px;
+    margin-left: 85px;
+    font-size: 1.25rem;
+    font-family: 'Caveat', cursive;
+    color:#1A72BA;
+} */
+
+h1{
+    color:#1A72BA;
+    margin-left: 70px;
+    font-family: 'Caveat', cursive;
+}
+
+#questions{
+    margin-top: 10px;
+    margin-left: 85px;
+    font-size: 1.75rem;
+    font-family: 'Caveat', cursive;
+    color:#1A72BA;
+    border: #1A72BA;
+    width: 300px;
+    height: 300px;
+}
+
+#next{
+    margin-top: 30px;
+    margin-left: 85px;
+    color: white;
+    border: #d9f4ff;
+    width: 150px;
+    height: 50px;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    background-color:#6aa2d6;
+    font-family: 'Caveat', cursive;
+
+}
