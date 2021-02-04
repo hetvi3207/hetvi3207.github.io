@@ -1,0 +1,155 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+.content{ 
+    text-align: center;
+    padding-top: 20vh;
+}
+input{
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    width: 30%;
+    height: 7%;
+    font-size: 1.25rem;
+    border: 2px solid #99FF66;
+    border-radius: 5px;
+}
+.submitButton{
+    background-color: #99FF66;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: black;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 4px;
+} */
+
+/* body {
+     overflow-y: hidden; 
+} */
+#container{
+    width: 1000px;
+    height: 600px;
+    margin-top: 25vh;
+    margin-left: 22vw;
+}
+
+#flexcontainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+
+#backlayer{
+    width: 930px;
+    height: 580px;
+    margin-top: 80px;
+    margin-left: 80px;
+
+    background: #cfd2d8;
+    mix-blend-mode: hard-light;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    opacity: 0.8;
+}
+
+.leftblue{
+    width: 400px;
+    height: 580px;
+    position: absolute;
+   
+    background: #0f3f69;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rightwhite{
+    position: absolute;
+    width: 530px;
+    height: 580px;
+    margin-left: 400px;
+
+    background: #F7F5F5;
+    box-shadow: 4px 8px 4px rgba(112, 109, 109, 0.25);
+} 
+
+.backgroundImg{
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    filter: brightness(60%);
+}
+
+#bgImg{
+    position: absolute;
+    top: 100;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 90%;
+    max-height: 100%;
+    
+}
+
+#logo{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#logo-wrapper{
+   filter:opacity(90%);
+   height: 200px;
+} 
+
+.text-container{
+    width: 150px;
+    height: 300px;
+    margin-top: 130px;
+    margin-left: 160px;
+    text-align: center;
+}
+
+.left-text{
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 1.75rem;
+}
+
+#username{
+    margin-top: 45px;
+}
+
+input{
+    width: 280px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 120px;
+    border: 2px solid  #90a1b1;
+    border-radius: 7px;
+}
+
+.submitButton {
+    background-color:#5090cc;
+    margin-top: 30px;
+    margin-left: 215px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    font-family: 'Caveat', cursive;
+}
